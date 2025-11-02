@@ -14,7 +14,6 @@ from sklearn.linear_model import LinearRegression
 import warnings
 warnings.filterwarnings('ignore')
 
-# Page configuration
 st.set_page_config(
     page_title="FinLlama: Advanced Financial Sentiment Analysis",
     page_icon="🦙",
@@ -22,7 +21,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
 st.markdown("""
 <style>
     .main-header {
